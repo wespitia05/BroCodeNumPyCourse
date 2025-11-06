@@ -10,4 +10,15 @@
 import numpy as np
 
 # prints current version of numpy
-print(np.__version__)
+# print(np.__version__)
+
+# my_list = [1, 2, 3, 4]
+
+# my_list = my_list * 2 # duplicates our list rather than multiplying each value by 2
+
+# print(my_list)
+
+array = np.array([1, 2, 3, 4])
+array = array * 2 # will double the elements in the numpy array
+print(array)
+print(type(array)) # prints the type of object the array is (numpy.ndarray)
