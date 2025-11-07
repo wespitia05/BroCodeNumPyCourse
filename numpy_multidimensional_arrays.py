@@ -27,3 +27,10 @@ print(array3[0][1][0]) # multidimensional indexing (layer, row, element)
 print(array3[0][2][0]) # multidimensional indexing (layer, row, element)
 print(array3[1][1][1]) # multidimensional indexing (layer, row, element)
 print(array3[0][0][0]) # multidimensional indexing (layer, row, element)
+
+# form 3 letter word using string concatenation
+word1 = array3[0, 0, 0] + array3[2, 0, 0] + array3[2, 0 ,0] # ASS
+word2 = array3[0, 1, 0] + array3[0, 0, 0] + array3[2, 2, 0] # DAY
+
+print(word1)
+print(word2)
