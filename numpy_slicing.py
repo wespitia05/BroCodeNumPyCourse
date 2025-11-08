@@ -45,3 +45,21 @@ print(array[:, 3])
 print(array[:, 0:3]) # end point is exclusive
 # selecting all rows and accessing column 2, 3, 4
 print(array[:, 1:4]) # end point is exclusive
+# selecting all rows and accessing column 1, 3
+print(array[:, ::2])
+# selecting all rows and accessing column 2, 4
+print(array[:, 1::2])
+# selecting all rows and accessing column 1, 2, 3, 4 in reverse
+print(array[:, ::-1])
+# selecting all rows and accessing column 2, 4 in reverse
+print(array[:, ::-2])
+
+# ***** ROW & COLUMN SELECTION ***** #
+# returns first two columns in first two rows
+print(array[0:2, 0:2])
+# returns last two columns in first two rows
+print(array[0:2, 2:4])
+# returns first two columns in last two rows
+print(array[2:4, 0:2])
+# returns last two columns in last two rows
+print(array[2:4, 2:4])
