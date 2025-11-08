@@ -15,3 +15,14 @@ print(array[1])
 print(array[2])
 # accessing array at index 3
 print(array[3])
+
+# access 1-12
+print(array[0:3])
+# access 5-16
+print(array[1:4])
+# access 1-16
+print(array[0:])
+# access 1-4, 9-12
+print(array[0:4:2]) # end point is exclusive
+# access 5-8, 13-16
+print(array[1:5:2]) # end point is exclusive
