@@ -17,3 +17,8 @@ print(np.round(array1))
 print(np.floor(array1)) # always round down
 print(np.ceil(array1)) # always round up
 print(np.pi)
+
+# ***** EXERCISE ***** #
+radii = np.array([1, 2, 3])
+
+print(np.pi * radii ** 2) # area of circle
