@@ -22,3 +22,13 @@ print(np.pi)
 radii = np.array([1, 2, 3])
 
 print(np.pi * radii ** 2) # area of circle
+
+# ***** ELEMENT-WISE ARITHMETIC ***** #
+a1 = np.array([1, 2, 3])
+a2 = np.array([4, 5, 6])
+
+print(a1 + a2)
+print(a1 - a2)
+print(a1 * a2)
+print(a1 / a2)
+print(a1 ** a2)
