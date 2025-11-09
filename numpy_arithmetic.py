@@ -32,3 +32,14 @@ print(a1 - a2)
 print(a1 * a2)
 print(a1 / a2)
 print(a1 ** a2)
+
+# ***** COMPARISON OPERATORS ***** #
+scores = np.array([91, 55, 100, 73, 82, 64])
+
+print(scores == 100) # returns boolean array
+print(scores >= 60)
+print(scores <= 60)
+
+# any student with a score less than 60 gets a 0
+scores[scores < 60] = 0
+print(scores)
