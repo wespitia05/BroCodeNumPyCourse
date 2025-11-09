@@ -13,3 +13,6 @@ print(np.min(array))
 print(np.max(array))
 print(np.argmin(array)) # returns index number of min
 print(np.argmax(array)) # returns index number of max
+
+print(np.sum(array, axis=0)) # sums each column
+print(np.sum(array, axis=1)) # sums each row
