@@ -9,3 +9,7 @@ ages = np.array([[21, 17, 19, 20, 16, 30, 18, 65],
 # create new array with teenagers
 teenagers = ages[ages < 18]
 print(teenagers)
+
+# create new array with adults
+adults = ages[(ages >= 18) & (ages < 65)]
+print(adults)
