@@ -25,3 +25,8 @@ print(evens)
 # create new array with odd ages
 odds = ages[ages % 2 != 0]
 print(odds)
+
+# using where function to preserve original shape
+# 3 arguments: (condition, array, fill in value)
+adults = np.where(ages >= 18, ages, 0)
+print(adults)
