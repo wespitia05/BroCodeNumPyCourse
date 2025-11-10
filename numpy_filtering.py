@@ -13,3 +13,15 @@ print(teenagers)
 # create new array with adults
 adults = ages[(ages >= 18) & (ages < 65)]
 print(adults)
+
+# create new array with seniors
+seniors = ages[ages >= 65]
+print(seniors)
+
+# create new array with even ages
+evens = ages[ages % 2 == 0]
+print(evens)
+
+# create new array with odd ages
+odds = ages[ages % 2 != 0]
+print(odds)
